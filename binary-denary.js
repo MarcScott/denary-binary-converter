@@ -1,7 +1,7 @@
 //Declare an object array to hold the cards
 var pack = [];
 var packCoords=[];
-var binary = [0,1,0,1,0]
+var binary = [0,0,0,0,0]
 
 function setup(){
     createCanvas(700, 1000);
@@ -31,7 +31,7 @@ function Card(i){
     this.width = 60;
     this.height = 200;
     this.spots = Math.pow(2,i)
-    this.reveal = true;
+    this.reveal = false;
 }
 
 //Set the display state of the card depending on spots
