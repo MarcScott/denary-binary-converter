@@ -1,7 +1,7 @@
 //Declare an object array to hold the cards
 var pack = [];
 var packCoords=[];
-var binary = [1,1,1,1,1]
+var binary = [0,1,0,1,0]
 
 function setup(){
     createCanvas(700, 1000);
